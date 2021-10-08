@@ -44,17 +44,17 @@
    &kp ESC     &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                    &kp CARET &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR  &kp BSPC
    &kp LSHFT   &kp GRAVE &none     &none     &none    &kp KP_NLCK                   &none     &kp HOME  &kp UP    &kp END   &kp PG_UP &kp BSLH
    &kp LCTRL   &kp TILDE &none     &none     &none    &kp CAPS              &kp LANG_HANGEUL  &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN &kp RSHFT
-                                 &kp LALT    &mo 3     &kp RET                      &kp SPC   &none     &kp KP_N0
+                                 &kp LALT    &mo 3     &kp RET                      &kp SPC   &trans    &kp KP_N0
                         >;
                 };
 
                 adjust_layer {
                         label = "ADJUST";
                         bindings = <
-   &kp F12     &kp F1  &kp F2   &kp F3           &kp F4    &kp F5        &kp F6          &kp F7       &kp F8       &kp F9         &kp F10       &kp F11
-   &none       &none   &none    &none            &none     &none         &none           &none        &none        &none          &none         &none
-   &bt BT_CLR  &none   &none    &none            &none     &reset        &bt BT_SEL 0    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &bt BT_SEL 4  &none
-                                           &kp LALT &trans &kp SPC       &kp RET &trans &kp BSPC
+   &kp F12     &kp F1  &kp F2   &kp F3           &kp F4    &kp F5        &kp F6          &kp F7        &kp F8        &kp F9         &kp F10       &kp F11
+   &none       &none   &none    &none            &none     &none         &none           &none         &none         &none          &none         &none
+   &bt BT_CLR  &none   &none    &none            &none     &none         &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &none
+                                &kp LALT         &trans    &reset        &kp RET         &trans        &kp BSPC
                         >;
                 };
 };
