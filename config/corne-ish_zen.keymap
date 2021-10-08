@@ -57,4 +57,5 @@
                                 &kp LALT         &trans    &reset        &kp RET         &trans        &kp BSPC
                         >;
                 };
+        };
 };
