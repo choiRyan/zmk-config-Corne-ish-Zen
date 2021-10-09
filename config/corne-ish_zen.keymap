@@ -34,7 +34,7 @@
    &kp ESC     &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5             &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &kp BSPC
    &kp LSHFT   &kp LBKT  &kp LPAR  &kp UP    &kp RPAR  &kp RBKT              &kp PLUS  &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp UNDER &kp BSLH
    &kp LCTRL   &kp LBRC  &kp LEFT  &kp DOWN  &kp RIGHT &kp RBRC              &kp EQUAL &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp MINUS &kp RSHFT
-                           &kp LANG_HANGEUL  &trans    &kp LANG_HANGEUL      &kp SPC   &mo 3     &kp KP_N0
+                           &kp LANG_HANGEUL  &trans    &kp DEL               &kp SPC   &mo 3     &kp KP_N0
                         >;
                 };
 
